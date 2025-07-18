@@ -1,11 +1,11 @@
 Output phase1.mp4
+Set Shell bash
+
 Require claude
 
 Set Theme "Catppuccin Frappe"
-Set FontFamily "FiraCode Nerd Font"
 Set Width 1200
 Set Height 1200
-Set Shell bash
 
 Sleep 500ms
 Type "iowarp mcp add slurm -- uv run --with 'git+https://github.com/iowarp/scientific-mcps#subdirectory=Slurm' slurm-mcp"
