@@ -8,6 +8,11 @@ Set Width 1200
 Set Height 1200
 Set Shell bash
 
+Sleep 500ms
+Type "iowarp mcp add adios -- uv run --with 'git+https://github.com/iowarp/scientific-mcps#subdirectory=Adios' adios-mcp"
+Enter
+Sleep 500ms
+
 Type "iowarp --dangerously-skip-permissions"
 Sleep 500ms
 

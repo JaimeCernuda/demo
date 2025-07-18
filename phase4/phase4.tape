@@ -38,12 +38,3 @@ Sleep 150s
 
 Type "/exit"
 Enter
-
-## Phase 4: Adaptive Resource Management (4-5 steps)
-
-**Show intelligent resource adaptation:**
-1. Request optimal resource allocation (start with 8 nodes)
-2. **[EXPECTED CONSTRAINT]** Discover limited node availability
-3. **[ADAPTIVE RESPONSE]** Adjust to smaller allocation (4 nodes)
-4. Successfully secure resources via Slurm
-5. Document resource management decisions in `resource_allocation.md`
