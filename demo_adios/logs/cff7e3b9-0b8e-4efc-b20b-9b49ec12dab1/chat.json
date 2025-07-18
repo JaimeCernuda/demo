@@ -1,0 +1,191 @@
+[
+  {
+    "parentUuid": null,
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "type": "user",
+    "message": {
+      "role": "user",
+      "content": "can you run the clear command"
+    },
+    "uuid": "ef6e6ebb-ce2d-4864-aa2f-5447b8cbe4b5",
+    "timestamp": "2025-07-17T19:28:16.313Z"
+  },
+  {
+    "parentUuid": "ef6e6ebb-ce2d-4864-aa2f-5447b8cbe4b5",
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "message": {
+      "id": "msg_014gKZ5dbTEBm8N7D3YoxZwL",
+      "type": "message",
+      "role": "assistant",
+      "model": "claude-sonnet-4-20250514",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01HP2sCqh2myfAPD9bFcSv7T",
+          "name": "Bash",
+          "input": {
+            "command": "clear",
+            "description": "Clear the terminal screen"
+          }
+        }
+      ],
+      "stop_reason": null,
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 3,
+        "cache_creation_input_tokens": 1433,
+        "cache_read_input_tokens": 15345,
+        "output_tokens": 1,
+        "service_tier": "standard"
+      }
+    },
+    "requestId": "req_011CRD9FSfWEnGBjoAPBCvWn",
+    "type": "assistant",
+    "uuid": "63546242-bbb7-45bb-a80a-56e35d27dcce",
+    "timestamp": "2025-07-17T19:28:19.374Z"
+  },
+  {
+    "parentUuid": "63546242-bbb7-45bb-a80a-56e35d27dcce",
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "type": "system",
+    "content": "\u001b[1mPreToolUse:Bash\u001b[22m [uv run .claude/hooks/pre_tool_use.py] completed successfully",
+    "isMeta": false,
+    "timestamp": "2025-07-17T19:28:19.569Z",
+    "uuid": "c5b697d2-791d-4f3b-9766-c7946ad4ba86",
+    "toolUseID": "toolu_01HP2sCqh2myfAPD9bFcSv7T",
+    "level": "info"
+  },
+  {
+    "parentUuid": "c5b697d2-791d-4f3b-9766-c7946ad4ba86",
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "type": "system",
+    "content": "\u001b[1mPreToolUse:Bash\u001b[22m [uv run .claude/hooks/send_event.py --source-app cc-hook-multi-agent-obvs --event-type PreToolUse --summarize] completed successfully",
+    "isMeta": false,
+    "timestamp": "2025-07-17T19:28:19.618Z",
+    "uuid": "8b7ebdc9-6f84-47b9-a8e5-25a7bc7eb3d1",
+    "toolUseID": "toolu_01HP2sCqh2myfAPD9bFcSv7T",
+    "level": "info"
+  },
+  {
+    "parentUuid": "8b7ebdc9-6f84-47b9-a8e5-25a7bc7eb3d1",
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "type": "user",
+    "message": {
+      "role": "user",
+      "content": [
+        {
+          "tool_use_id": "toolu_01HP2sCqh2myfAPD9bFcSv7T",
+          "type": "tool_result",
+          "content": "\u001b[H\u001b[2J\u001b[3J",
+          "is_error": false
+        }
+      ]
+    },
+    "uuid": "0aca2a06-95c1-4eac-bbc3-88c3d9c2afe7",
+    "timestamp": "2025-07-17T19:28:21.980Z",
+    "toolUseResult": {
+      "stdout": "\u001b[H\u001b[2J\u001b[3J",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "parentUuid": "0aca2a06-95c1-4eac-bbc3-88c3d9c2afe7",
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "type": "system",
+    "content": "Running \u001b[1mPostToolUse:Bash\u001b[22m...",
+    "isMeta": false,
+    "timestamp": "2025-07-17T19:28:21.995Z",
+    "uuid": "3d83de25-8735-4111-98d9-0667f5dea8ff",
+    "toolUseID": "toolu_01HP2sCqh2myfAPD9bFcSv7T",
+    "level": "info"
+  },
+  {
+    "parentUuid": "3d83de25-8735-4111-98d9-0667f5dea8ff",
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "type": "system",
+    "content": "\u001b[1mPostToolUse:Bash\u001b[22m [uv run .claude/hooks/post_tool_use.py] completed successfully",
+    "isMeta": false,
+    "timestamp": "2025-07-17T19:28:22.138Z",
+    "uuid": "9034db79-2ab1-464a-961a-180c609563b6",
+    "toolUseID": "toolu_01HP2sCqh2myfAPD9bFcSv7T",
+    "level": "info"
+  },
+  {
+    "parentUuid": "9034db79-2ab1-464a-961a-180c609563b6",
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "type": "system",
+    "content": "\u001b[1mPostToolUse:Bash\u001b[22m [uv run .claude/hooks/send_event.py --source-app cc-hook-multi-agent-obvs --event-type PostToolUse --summarize] completed successfully",
+    "isMeta": false,
+    "timestamp": "2025-07-17T19:28:22.187Z",
+    "uuid": "a750c31e-e4e2-4bf1-a4d1-5d95283e5f0d",
+    "toolUseID": "toolu_01HP2sCqh2myfAPD9bFcSv7T",
+    "level": "info"
+  },
+  {
+    "parentUuid": "a750c31e-e4e2-4bf1-a4d1-5d95283e5f0d",
+    "isSidechain": false,
+    "userType": "external",
+    "cwd": "/home/jcernuda/demo_adios",
+    "sessionId": "cff7e3b9-0b8e-4efc-b20b-9b49ec12dab1",
+    "version": "1.0.53",
+    "message": {
+      "id": "msg_016D2zfeV5EcSPJ7RfvKx1kC",
+      "type": "message",
+      "role": "assistant",
+      "model": "claude-sonnet-4-20250514",
+      "content": [
+        {
+          "type": "text",
+          "text": "Screen cleared."
+        }
+      ],
+      "stop_reason": null,
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 6,
+        "cache_creation_input_tokens": 89,
+        "cache_read_input_tokens": 16778,
+        "output_tokens": 1,
+        "service_tier": "standard"
+      }
+    },
+    "requestId": "req_011CRD9Fu6yfibyZ988aiHWX",
+    "type": "assistant",
+    "uuid": "54c51729-a53a-4a23-8500-942396628533",
+    "timestamp": "2025-07-17T19:28:24.338Z"
+  }
+]

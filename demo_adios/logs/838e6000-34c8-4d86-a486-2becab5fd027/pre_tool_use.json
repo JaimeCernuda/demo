@@ -1,0 +1,12 @@
+[
+  {
+    "session_id": "838e6000-34c8-4d86-a486-2becab5fd027",
+    "transcript_path": "/home/jcernuda/.claude/projects/-home-jcernuda-demo-adios/838e6000-34c8-4d86-a486-2becab5fd027.jsonl",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "clear",
+      "description": "Clear the terminal screen"
+    }
+  }
+]

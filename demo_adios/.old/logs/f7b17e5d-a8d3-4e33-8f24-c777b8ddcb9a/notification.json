@@ -1,0 +1,9 @@
+[
+  {
+    "session_id": "f7b17e5d-a8d3-4e33-8f24-c777b8ddcb9a",
+    "transcript_path": "/home/jcernuda/.claude/projects/-home-jcernuda-demo-adios/f7b17e5d-a8d3-4e33-8f24-c777b8ddcb9a.jsonl",
+    "cwd": "/home/jcernuda/demo_adios",
+    "hook_event_name": "Notification",
+    "message": "Claude is waiting for your input"
+  }
+]

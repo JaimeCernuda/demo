@@ -1,0 +1,172 @@
+{
+  "dataset_info": {
+    "file_path": "data/nanoparticles.bp5",
+    "num_steps": 51,
+    "num_variables": 13
+  },
+  "variables": {
+    "atoms": {
+      "name": "atoms",
+      "type": "double",
+      "shape": "272, 5",
+      "min": "0.257623",
+      "max": "7169",
+      "single_value": "false",
+      "detailed_type": "double",
+      "detailed_shape": [
+        272,
+        5
+      ],
+      "variable_steps": 51
+    },
+    "boxxhi": {
+      "name": "boxxhi",
+      "type": "double",
+      "shape": "",
+      "min": "27.2",
+      "max": "27.2",
+      "single_value": "true",
+      "detailed_type": "double",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "boxxlo": {
+      "name": "boxxlo",
+      "type": "double",
+      "shape": "",
+      "min": "-27.2",
+      "max": "-27.2",
+      "single_value": "true",
+      "detailed_type": "double",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "boxyhi": {
+      "name": "boxyhi",
+      "type": "double",
+      "shape": "",
+      "min": "27.2",
+      "max": "27.2",
+      "single_value": "true",
+      "detailed_type": "double",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "boxylo": {
+      "name": "boxylo",
+      "type": "double",
+      "shape": "",
+      "min": "-27.2",
+      "max": "-27.2",
+      "single_value": "true",
+      "detailed_type": "double",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "boxzhi": {
+      "name": "boxzhi",
+      "type": "double",
+      "shape": "",
+      "min": "27.2",
+      "max": "27.2",
+      "single_value": "true",
+      "detailed_type": "double",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "boxzlo": {
+      "name": "boxzlo",
+      "type": "double",
+      "shape": "",
+      "min": "-27.2",
+      "max": "-27.2",
+      "single_value": "true",
+      "detailed_type": "double",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "natoms": {
+      "name": "natoms",
+      "type": "uint64_t",
+      "shape": "",
+      "min": "272",
+      "max": "272",
+      "single_value": "true",
+      "detailed_type": "uint64_t",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "ncolumns": {
+      "name": "ncolumns",
+      "type": "int32_t",
+      "shape": "",
+      "min": "5",
+      "max": "5",
+      "single_value": "true",
+      "detailed_type": "int32_t",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "nme": {
+      "name": "nme",
+      "type": "uint64_t",
+      "shape": "1",
+      "min": "272",
+      "max": "272",
+      "single_value": "false",
+      "detailed_type": "uint64_t",
+      "detailed_shape": [
+        1
+      ],
+      "variable_steps": 51
+    },
+    "nprocs": {
+      "name": "nprocs",
+      "type": "int32_t",
+      "shape": "",
+      "min": "1",
+      "max": "1",
+      "single_value": "true",
+      "detailed_type": "int32_t",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "ntimestep": {
+      "name": "ntimestep",
+      "type": "uint64_t",
+      "shape": "",
+      "min": "0",
+      "max": "50000",
+      "single_value": "true",
+      "detailed_type": "uint64_t",
+      "detailed_shape": [],
+      "variable_steps": 51
+    },
+    "offset": {
+      "name": "offset",
+      "type": "uint64_t",
+      "shape": "1",
+      "min": "0",
+      "max": "0",
+      "single_value": "false",
+      "detailed_type": "uint64_t",
+      "detailed_shape": [
+        1
+      ],
+      "variable_steps": 51
+    }
+  },
+  "steps": [],
+  "summary": {
+    "total_variables": 13,
+    "total_steps": 51,
+    "variable_types": {
+      "double": 7,
+      "uint64_t": 4,
+      "int32_t": 2
+    },
+    "recommendations": [
+      "Multiple variables available - consider correlation analysis"
+    ]
+  }
+}

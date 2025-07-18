@@ -1,0 +1,225 @@
+{
+  "dataset_info": {
+    "file_path": "data/nanoparticles.bp5",
+    "num_variables": 0,
+    "variable_names": [],
+    "total_steps": 51
+  },
+  "variables": {},
+  "sample_data": {
+    "steps": [
+      {
+        "step": 0,
+        "variables": {}
+      },
+      {
+        "step": 1,
+        "variables": {}
+      },
+      {
+        "step": 2,
+        "variables": {}
+      },
+      {
+        "step": 3,
+        "variables": {}
+      },
+      {
+        "step": 4,
+        "variables": {}
+      },
+      {
+        "step": 5,
+        "variables": {}
+      },
+      {
+        "step": 6,
+        "variables": {}
+      },
+      {
+        "step": 7,
+        "variables": {}
+      },
+      {
+        "step": 8,
+        "variables": {}
+      },
+      {
+        "step": 9,
+        "variables": {}
+      },
+      {
+        "step": 10,
+        "variables": {}
+      },
+      {
+        "step": 11,
+        "variables": {}
+      },
+      {
+        "step": 12,
+        "variables": {}
+      },
+      {
+        "step": 13,
+        "variables": {}
+      },
+      {
+        "step": 14,
+        "variables": {}
+      },
+      {
+        "step": 15,
+        "variables": {}
+      },
+      {
+        "step": 16,
+        "variables": {}
+      },
+      {
+        "step": 17,
+        "variables": {}
+      },
+      {
+        "step": 18,
+        "variables": {}
+      },
+      {
+        "step": 19,
+        "variables": {}
+      },
+      {
+        "step": 20,
+        "variables": {}
+      },
+      {
+        "step": 21,
+        "variables": {}
+      },
+      {
+        "step": 22,
+        "variables": {}
+      },
+      {
+        "step": 23,
+        "variables": {}
+      },
+      {
+        "step": 24,
+        "variables": {}
+      },
+      {
+        "step": 25,
+        "variables": {}
+      },
+      {
+        "step": 26,
+        "variables": {}
+      },
+      {
+        "step": 27,
+        "variables": {}
+      },
+      {
+        "step": 28,
+        "variables": {}
+      },
+      {
+        "step": 29,
+        "variables": {}
+      },
+      {
+        "step": 30,
+        "variables": {}
+      },
+      {
+        "step": 31,
+        "variables": {}
+      },
+      {
+        "step": 32,
+        "variables": {}
+      },
+      {
+        "step": 33,
+        "variables": {}
+      },
+      {
+        "step": 34,
+        "variables": {}
+      },
+      {
+        "step": 35,
+        "variables": {}
+      },
+      {
+        "step": 36,
+        "variables": {}
+      },
+      {
+        "step": 37,
+        "variables": {}
+      },
+      {
+        "step": 38,
+        "variables": {}
+      },
+      {
+        "step": 39,
+        "variables": {}
+      },
+      {
+        "step": 40,
+        "variables": {}
+      },
+      {
+        "step": 41,
+        "variables": {}
+      },
+      {
+        "step": 42,
+        "variables": {}
+      },
+      {
+        "step": 43,
+        "variables": {}
+      },
+      {
+        "step": 44,
+        "variables": {}
+      },
+      {
+        "step": 45,
+        "variables": {}
+      },
+      {
+        "step": 46,
+        "variables": {}
+      },
+      {
+        "step": 47,
+        "variables": {}
+      },
+      {
+        "step": 48,
+        "variables": {}
+      },
+      {
+        "step": 49,
+        "variables": {}
+      },
+      {
+        "step": 50,
+        "variables": {}
+      }
+    ]
+  },
+  "summary": {
+    "total_steps": 51,
+    "total_variables": 0,
+    "variable_types": {},
+    "scalar_variables": [],
+    "array_variables": [],
+    "time_series_analysis": {}
+  }
+}

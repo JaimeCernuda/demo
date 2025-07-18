@@ -1,0 +1,12 @@
+[project]
+name = "lammps-gold-analysis"
+version = "0.1.0"
+description = "Analysis tools for LAMMPS melting gold simulation"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "matplotlib>=3.5.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
