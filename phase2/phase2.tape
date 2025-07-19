@@ -1,6 +1,8 @@
 Output arxviv.mp4
-Require claude
 
+Require iowarp
+
+Set Theme "Catppuccin Frappe"
 Set Width 1200
 Set Height 1200
 Set Shell bash

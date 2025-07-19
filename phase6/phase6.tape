@@ -1,9 +1,8 @@
 Output phase6.mp4
 
-Require claude
+Require iowarp
 
 Set Theme "Catppuccin Frappe"
-Set FontFamily "FiraCode Nerd Font"
 Set Width 1200
 Set Height 1200
 Set Shell bash
