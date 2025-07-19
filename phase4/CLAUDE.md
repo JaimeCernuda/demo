@@ -1,3 +1,12 @@
 # Phase 4: Adaptive Resource Management
 
-For this phase, initially decide to attemp to alloate 8 nodes, use the Slurm MCP to find that the cluster doesnt have 8 nodes, and dynamically react to it to request, through the MCP, the last 4 nodes on the cluster.
+#### Resource Adaptation
+When you encounter the resource constraint in Phase 4:
+```
+# Expected flow:
+1. Request 8 nodes initially
+2. Discover only 4 nodes available
+3. Adapt strategy: "Given the constraint, I'll optimize for 4 nodes"
+4. Cancel the job waiting for the 8 nodes
+5. Attemp to allocate 4 nodes with a proper time out
+```
