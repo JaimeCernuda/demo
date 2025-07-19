@@ -39,7 +39,7 @@ Type "6. Run the job.\"
 Enter
 Type "7. Document the location of the results."
 Enter
-Sleep 150s
+Sleep 250s
 
 Type "/exit"
 Enter
