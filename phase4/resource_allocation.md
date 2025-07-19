@@ -26,12 +26,12 @@
 - **Implementation:** Reduced resource request to match availability
 
 ### Step 4: Successful Allocation
-- **Job ID:** 4919 (phase4-adaptive-allocation)
+- **Job ID:** 4921 (phase4_adapted_allocation)
 - **Allocated Nodes:** ares-comp-[27-30]
 - **Resources:** 4 nodes, 8 CPUs total, 160 cores available
 - **Status:** RUNNING
 - **Duration:** 1-hour allocation
-- **Start Time:** 2025-07-19T12:57:07
+- **Start Time:** 2025-07-19T13:25:52
 
 ## Resource Optimization Strategy
 
